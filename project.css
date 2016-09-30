@@ -1,0 +1,84 @@
+body
+{
+	background: linear-gradient(#2980b9, #2c3e50);
+}
+
+#header
+{
+	border-style: none none ridge none;
+	position: relative;
+	top: 10px;
+	z-index: 1;
+}
+
+#pic
+{
+	float: right;
+	position: relative;
+	top: -30px;
+	right: 30px;
+	-ms-transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+	z-index: 2;
+}
+
+.pic1
+{
+	width: 200px;
+	height: 180px;
+}
+
+#obj
+{
+	float:left;
+	max-width: 600px;
+}
+
+
+
+#container
+{
+	clear: both;
+}
+
+.body1
+{
+	float: left;
+	display: table;
+	max-width: 200px;
+}
+
+
+.body1c  
+{
+	float: left;
+	display: table-column;
+	width: 200px;
+	border-style: none ridge none none;
+	margin: 20px;
+	margin-left: 150px;
+	clear: both;
+}
+
+.body2
+{
+	float: left;
+	display: table;
+	max-width: 800px
+}
+
+.body2c 
+{
+	float: left;
+	display: table-column;
+	width: 800px;
+	margin-top: 30px; 
+	/*padding-right: 100px;*/
+	border: solid red;
+}
+
+
+
+
+
+
