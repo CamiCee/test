@@ -1,0 +1,123 @@
+body
+{
+	background: linear-gradient(#2980b9, #2c3e50);
+	background: #2980b9;
+}
+
+span
+{
+	font-weight: bold;
+	font-size: 19px;
+}
+
+#header
+{
+	border-style: none none ridge none;
+	position: relative;
+	top: 10px;
+	z-index: 1;
+}
+
+#pic
+{
+	float: right;
+	position: relative;
+	top: -30px;
+	right: 30px;
+	-ms-transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+	z-index: 2;
+}
+
+.pic1
+{
+	width: 200px;
+	height: 200px;
+}
+
+#obj
+{
+	float:left;
+	max-width: 600px;
+}
+
+#container
+{
+	clear: both;
+	display: table;
+	max-width: 100%;
+	min-width: 100px;
+	margin-left:auto;
+    margin-right:auto;
+	overflow-x: auto;
+}
+
+
+.body1
+{
+	float: left;
+	display: table;
+	max-width: 200px;
+}
+
+.body1c  
+{
+	float: left;
+	display: table-column;
+	width: 200px;
+	border-style: none ridge none none;
+	margin: 20px;
+	/*margin-left: 200px;*/
+	margin-bottom: 20px; 
+}
+
+.body2
+{
+	/*float: left;*/
+	display: table;
+	max-width: 650px;
+}
+
+.body2c 
+{
+	/*float: left;*/
+	display: table-column;
+	/*width: 650px;*/
+	margin-top: 20px; 
+	/*padding-right: 100px;*/
+	min-width: 20px;
+	display: block;
+}
+
+#td1
+{
+	height: 100px;
+}
+
+#td2
+{
+	
+	height: 150px;
+}
+
+#td5
+{
+	height: 147px;
+}
+
+
+#td21
+{
+	padding-top: 33px;
+	
+}
+
+#td41
+{
+	padding-top: 20px;
+}
+
+#td51
+{
+	padding-top: 54px;
+}
